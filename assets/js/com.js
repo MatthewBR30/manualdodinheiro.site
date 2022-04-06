@@ -100,7 +100,7 @@ function postReply(id) {
 }
 setTimeout(function() {
     $('#add-to-cart').show()
-}, 20000)
+}, 200)
 var today = new Date()
 today.setDate(today.getFullYear() + 1)
 setCookie('returningVisitor', 'yes', today)
